@@ -6,7 +6,7 @@
     <description>Recent content in Guide on Turtlecute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <copyright>Copy, right? :thinking_face:</copyright>
     <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Come usare joinmarket per fare coinjoin</title>
@@ -14,7 +14,7 @@
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/guides/joinmarket/</guid>
-      <description>JOINMARKET # La Guida da 0 a Eroe di Joinmarket.</description>
+      <description>JOINMARKET # Se avete trovato questa pagina cercando online &amp;ldquo;JoinTmarket&amp;rdquo; avete tutta la mia sincera stima.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/joinmarket/featured.svg" />
     </item>
     
@@ -29,12 +29,22 @@
     </item>
     
     <item>
+      <title>Tutorial all&#39;utilizzo di bitcoin tutelando la propria privacy</title>
+      <link>http://localhost:1313/guides/bitcoin/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/guides/bitcoin/</guid>
+      <description>Bitcoin # Questa sarà una guida completa sull&amp;rsquo;utilizzo privacy oriented di Bitcoin partendo dalle basi fino ad arrivare a livelli avanzati.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/bitcoin/featured.svg" />
+    </item>
+    
+    <item>
       <title>Come generare un seed bitcoin con i dadi</title>
       <link>http://localhost:1313/guides/seed/</link>
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/guides/seed/</guid>
-      <description>Come generare un seed bitcoin con i dadi</description>
+      <description>SEED # Calcolare una frase mnemonica di 24 parole usando dadi, carte e penna.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/seed/featured.svg" />
     </item>
     

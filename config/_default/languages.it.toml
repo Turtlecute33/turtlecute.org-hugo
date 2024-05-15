@@ -11,7 +11,7 @@ title = "Turtlecute"
   logo = "turtle2.png"
   # secondaryLogo = "trtl.jpg"
    description = "Turtlecute - contatti, tutorial e guide su bitcoin e privacy"
-   copyright = "Copy, _right?_ :thinking_face:"
+   copyright = "Copy, right? :thinking_face:"
 
  [author]
    name = "TURTLECUTE"

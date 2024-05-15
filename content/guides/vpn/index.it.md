@@ -1,6 +1,6 @@
 ---
 title: "Tutorial per il setup di una VPN self-hosted con filtro AdBlock"
-description: "Guida per crreare una VPN self-hostata con wireguard, pi-hole e unbound."
+description: "Guida per creare una VPN self-hostata con wireguard, pi-hole e unbound."
 keywords: ["vpn", "vpn ita", "vpn self hosted", "wireguard", "pihole", "unbound dns", "wireguard ita"]
 author: "Turtlecute"
 date: 2024-05-11
@@ -16,18 +16,6 @@ Questa vuole essere una guida completa per effettuare il setup di una propria VP
 La guida è aperta a miglioramenti e consigli, descriverò la configurazione che trovo con il miglior rapporto usabilità/privacy, non sono un esperto di reti e la guida qua presente non vi permetterá di essere magicamente anonimi e irrintracciabili.  
   
 Se volete darmi consigli, contribuire alla guida o effettuare traduzioni, potete effettuare una pull request su [GitHub](https://github.com/Turtlecute33/Turtlecute.org) e supportare lo sviluppo di queste guide con una [donazione](https://priorato.btcpayserver.it/i/BFg7UG7Zu8eAaRz3EiXgQJ).  
-  
-
-## Tabella dei contenuti
-
-*   [Obiettivo](#os)
-*   [Scelta dell'hosting provider](#set)
-*   [Connessione alla VPN tramite SSH](#store)
-*   [Setup della VPN](#shelter)
-*   [Configurazione PiHole e AdLists](#app)
-*   [Esportazione delle configurazioni](#email)
-*   [Test di funzionamento](#cloud)
-*   [Conclusioni](#conc)
 
   
 
@@ -35,7 +23,7 @@ Se volete darmi consigli, contribuire alla guida o effettuare traduzioni, potete
 
 L'obiettivo finale di questa guida sarà quello di self-hostarci una VPN con un filtro per ads e tracker in maniera totalmente autonoma. Questa procedura comporta dei vantaggi e svantaggi rispetto all'utilizzo di una normale VPN commerciale:
 
-### pros
+### pro
 
 *   Non doversi fidare di un provider VPN il cui modello di business, purtroppo, spesso è vendere i nostri dati personali
 *   Possibilità di inserire filtri per pubblicità e trackers; alcune VPN offrono questo servizio, ma spesso di qualità molto precaria

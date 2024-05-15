@@ -17,26 +17,9 @@ Questa vuole essere una guida completa per ottenere un telefono Android completa
 La guida è aperta a miglioramenti e consigli, descriverò la configurazione che trovo con il miglior rapporto usabilità/privacy, nel tempo ampierò le varie sezioni introducendo anche varie alternative per chi magari non si trova bene con una determinata applicazione o servizio, Se volete darmi consigli, contribuire alla guida o effettuare traduzioni, potete trovare i miei contatti nella pagina [Donazioni](supporto.html) o effettuare una pull request su [GitHub](https://github.com/Turtlecute33/privacy.github.io).  
   
 
-## Tabella dei contenuti
-
-*   [Sistema operativo](#sistema-operativo)
-*   [Setup del sistema](#modifica-e-setup-del-sistema)
-*   [Store](#store-per-il-download-delle-app)
-*   [Shelter](#shelter)
-*   [Threat model nei due profili](#gestione-del-threat-model-tra-i-profili)
-*   [Applicazioni](#applicazioni)
-*   [Client e Provider email](#client-e-provider-email)
-*   [Permessi](#gestione-dei-permessi-delle-app)
-*   [Cloud e Vpn](#cloud-e-vpn)
-*   [Conclusioni](#conclusioni-finali)
-
-  
-
 ## Sistema operativo
 
 Esistono vari sistemi operativi Android privacy-oriented (GrapheneOS, CalixOS, etc). In questa guida tratteremo l’approccio usando come base LineageOS 12, ma è comunque compatibile con ogni altro sistema operativo AOSP.
-
-### !WARNING!
 
 Questa guida è stata pensata e studiata per offrire la massima sicurezza e privacy nell'utilizzo del proprio telefono, procedure come il rooting e lo sblocco del bootloader riducono notevolmente la sicurezza del dispositivo e sono per questo fortemente sconsigliate.
 
@@ -204,7 +187,7 @@ Altri ottimi posti per rimanere aggiornati in ambito privacy e degoogle sono var
 
 *   [DEGOOGLE](https://www.reddit.com/r/degoogle/)
 *   [PRIVACYTOOLS](https://www.reddit.com/r/privacytools/)
-*   [PRIVACY](https://www.reddit.com/r/privacy/)**
+*   [PRIVACY](https://www.reddit.com/r/privacy/)
 
   
 

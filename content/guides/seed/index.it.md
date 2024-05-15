@@ -1,12 +1,10 @@
 ---
 title: "Come generare un seed bitcoin con i dadi"
-description: "Guida per crreare una VPN self-hostata con wireguard, pi-hole e unbound."
-keywords: ["vpn", "vpn ita", "vpn self hosted", "wireguard", "pihole", "unbound dns", "wireguard ita"]
+description: "Guida per creare un seed bitcoin usando dadi, carta e penna."
+keywords: ["seed", "seed bitcoin", "seed con dadi", "dadi bitcoin", "seed bitcoin ita"]
 author: "Turtlecute"
 date: 2024-05-12
 ---
-Come generare un seed bitcoin con i dadi                
-
 # SEED
 
 Calcolare una frase mnemonica di 24 parole usando dadi, carte e penna.
@@ -14,7 +12,7 @@ Calcolare una frase mnemonica di 24 parole usando dadi, carte e penna.
 [Tedesco](https://aprycot.media/blog/diy-private-schluessel-fuer-bitcoin-erstellen/) 🇩🇪  
 [Inglese](https://armantheparman.com/dicev2/) 🇺🇲
 
-## In questo tutorial imparerai a generare la tua chiave privata Bitcoin
+## Introduzione
 
 Questo progetto ti aiuterà a capire meglio il funzionamento delle chiavi riguardanti Bitcoin e a generarle in autonomia. Avrai bisogno di matita, carta, qualcosa per generare un output casuale in binario (come una moneta o un dado) e un computer. Invece di studiare gli aspetti teorici riguardanti il funzionamento dei seed, nella guida di oggi metteremo le mani 'in pasta' e opereremo con un approccio pratico.
 

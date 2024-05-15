@@ -27,6 +27,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/guides/bitcoin/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/guides/seed/</loc>
     <lastmod>2024-05-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>

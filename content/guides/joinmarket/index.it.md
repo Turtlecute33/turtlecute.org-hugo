@@ -7,7 +7,6 @@ date: 2024-05-15
 ---
 
 # JOINMARKET
-La Guida da 0 a Eroe di Joinmarket.
 
 ![](img/jm.webp)
   
@@ -16,25 +15,9 @@ Se avete trovato questa pagina cercando online "Join**T**market" avete tutta la 
 L'obbiettivo di questo tutorial é quello di illustrare il funzionamento teorico e pratico di JoinMarket.  
   
 Questa guida ha richiesto tantissimo lavoro, tempo e impegno per essere completata ed é a disposizione in modo completamente gratuito. Se hai trovato i contenuti qui presenti interessanti e utili ti invito ad effettuare una donazione di un qualsiasi importo a sostegno del mio progetto di divulgazione. Questo sito non contiene analytics, pubblicità o elementi traccianti grazie a tutti coloro che supportano la mia divulgazione sostenendomi. 🐢 💚
-
-  
   
 
-# Tabella dei contenuti
-
-
-*   [Definizione teorica Joinmarket](#definizione-teorica-joinmarket)
-*   [Installazione](#installazione)
-*   [File di configurazione](#file-di-configurazione)
-*   [Setup](#setup-dellambiente-di-lavoro)
-*   [Inviare bitcoin](#inviare-bitcoin-con-coinjoin-singolo)
-*   [Fare da Maker](#fare-da-maker)
-*   [Tumbler](#tumbler)
-*   [Conclusioni](#conclusioni)
-
-  
-
-# Definizione teorica Joinmarket
+## Definizione teorica Joinmarket
 
 Possiamo definire JoinMarket come uno strumento, o un wallet, che permette di effettuare CoinJoin con altri utenti in maniera totalmente trustless e senza alcun coordinatore centrale.  
 Essendo tutta la parte teorica di questo tool estremamente ampia, ho deciso di affrontarla in una puntata specifica del mio podcast. Consiglio vivamente di proseguire nella lettura dopo aver ascoltato l'episodio, così da assimilare al meglio i concetti di base per utilizzare in maniera corretta questo programma.  
@@ -53,7 +36,7 @@ Da questo punto in poi tutti gli argomenti affrontati nel podcast veranno consid
 
   
 
-# Installazione
+## Installazione
 
 
 Sistemi operativi:
@@ -83,7 +66,7 @@ Tutta la parte di installazione e setup di Joinmarket è già coperta come parte
 </details>
 <br>
 
-# File di configurazione
+## File di configurazione
 
 JoinMarket é un software personalizzabile e con un'infinitá di settaggi; quest'ultimi sono specificati in un file di configurazione presente nella directory principale del programma chiamato ´Joinmarket.cfg´.  
   
@@ -115,7 +98,7 @@ una volta aperto noteremo numerose righe con varie impostazioni e relativa spieg
 
 Prestate molta attenzione a non modificare per sbaglio i campi errati, alcune delle varibili presenti nel file joinmarket.cfg se impostate erroneamente potrebbero compromettere la funzionalitá del software o annientare completamente la vostra privacy, occhi aperti e attenzione al massimo!
 
-# Setup dell'ambiente di lavoro
+## Setup dell'ambiente di lavoro
 
 
 Alcuni nodi impostano automaticamente i valori corretti per questi campi all'interno del file joinmarket.cfg Consiglio di ricontrollare manualmente:
@@ -175,7 +158,7 @@ ecco un esempio pratico del risultato:
 
 ora possiamo procedere a depositare i nostri primi satoshi all'interno di uno o piú indirizzi ricordando che, indipendendentemente da maker o taker, il software non andrá mai a consolidare utxo in mixdepth diversi direttamente, in questo modo potremo tenere separati sats con diverso livello di privacy all'interno del wallet.  
 
-# Inviare bitcoin con coinjoin singolo
+## Inviare bitcoin con coinjoin singolo
 
 Possiamo ora muovere i nostri satoshi. Uno dei comandi principali di questo software é lo script:  
   
@@ -211,7 +194,7 @@ quì abbiamo inviato tutti i fondi dal mixdepth 0 (potevamo anche non specifical
 Il comando sendpayment serve per muovere fondi da joinmarket a wallet esterni o per inviare satoshi ad una persona aggiungendo un layer di privacy tra noi e lui. Per guadagnare un sufficiente livello di privacy sui nostri UTXO é piú indicato usare il comando tumbler.py che spiegheremo piú avanti in questa guida.  
   
 
-# Fare da Maker
+## Fare da Maker
 
 Lo script che andremo a trattare in questa sezione è:  
   
@@ -234,7 +217,7 @@ python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 l'output che vi verrá restituito sarà un indirizzo bitcoin (ovvero quello su cui dovrete depositare i fondi che volete destinare al fidelity).  
   
 
-## !!ATTENZIONE!!
+ **!!ATTENZIONE!!**
 
 Ci sono due cose a cui fare molta attenzione se avete intenzione di creare un FB:
 
@@ -255,7 +238,7 @@ Eseguendo il comando sottostante potrete vedere lo storico di tutte le transazio
   
 Una volta che i vostri satoshi faranno dei coinjoin, si muoveranno da un mixdepth all'altro fino ad arrivare all'ultimo. Una volta superato il quarto torneranno al mixdepth 0, a voi la scelta di quanta privacy ottenere prima di spostarli su un cold wallet, é consigliabile concludere un ciclo completo del wallet.
 
-# Tumbler
+## Tumbler
 Eccoci finalmente alla parte piú succosa di JoinMarket, il tumbler!  
 se avete ascoltato il podcast sapete giá di cosa si tratta. Una raccomandazione prima di inziare: ATTENTI ALLE FEE! Ricordatevi di settare i limiti nel file joinmarket.cfg (come spiegato all'inzio) e valutate di far girare il programma solo quando le fee onchain sono relativamente basse (sotto i 10 sats/vB).  
 Per lanciare il tumbler é necessario aver fermato lo script da maker (se era attivo), dopo potremo far partire il comando:  
@@ -286,7 +269,7 @@ In caso chiudendo il terminale SSH al vostro nodo si interrompa anche lo script 
   
 Lanciandolo da shell digitando 'tmux' vi si aprirá un terminale che rimarrá attivo in background anche chiudendo la connessione remota. Quando vi ri-connetterete al vostro nodo con il comando: 'tmux attach' ri-aprirete la shell lasciata aperta.
 
-# Conclusioni
+## Conclusioni
 JoinMarket é un software sconfinato e personalizzabile. In questa guida abbiamo scoperto le funzioni principali in modo da rendere possibile per chiunque (o almeno ci ho provato, mi rendo conto che usare questo software non é una passeggiata) l'utilizzo di questo programma. Uno dei maggiori problemi di JM é proprio questo: il numero di persone che lo usano e che fanno da maker. Se pochi utenti sfruttano questo software, la privacy generale (anon-set) si abbassa. Ecco perché spero che questa guida possa incentivare l'uso e vi convinca a scaricare e installare il mio software preferito per fare coinjoin. In caso vogliate approfondire ancora di piú alcuni aspetti vi consiglio di dare una lettura ai vari docs di approfondimento presenti su github, sono vermanete ben fatti e li potete reperire [qui](https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/docs).  
   
 Buon mixing tartarughe!🐢 💚

@@ -47,18 +47,6 @@ puntata:
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </center>
 
-## Tabella dei contenuti {#tabella-dei-contenuti style="color: greenyellow;"}
-
--   [Obiettivo](#os)
--   [Valutazione dei rischi](#set)
--   [Scelta dell\'hosting provider](#store)
--   [Setup del nodo con script automatizzato](#shelter)
--   [Setup del nodo compilando tutto da sorgente](#app)
--   [Verifiche post installazione](#email)
--   [Test di funzionamento](#cloud)
--   [Conclusioni](#conc)
-
-
 
 ## Obiettivo {#os style="color: greenyellow;"}
 
