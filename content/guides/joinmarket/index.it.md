@@ -155,7 +155,10 @@ Abbiamo completato il setup del nostro ambiente di lavoro e possiamo cominciare 
   
 Possiamo ora provare a lanciare:
 
-                    `python wallet-tool.py *nome del wallet prima creato*  esempio: python wallet-tool.py wallet.jmdat`
+```
+python wallet-tool.py *nome del wallet prima creato*  
+esempio: python wallet-tool.py wallet.jmdat
+```
                     
 
 questo comando vi mostrerá tutti i vari mixdepth del portafoglio con i vari indirizzi catalogati come:
@@ -183,20 +186,25 @@ che ci permetterá di inviare transazioni ad altri indirizzi con o senza coinjoi
     python sendpayment.py *opzioni visionabili con --help* *nome del wallet* *ammontare di satoshi* *indirizzo di destinazione*
 
 un esempio basic di utilizzo potrebbe essere:  
-  
-`python sendpayment.py wallet.jmdat 5000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c`  
+```  
+python sendpayment.py wallet.jmdat 5000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
+``` 
 
 in questo caso andremo ad inviare all'indirizzo 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c 0.05 Btc ovvero 5000000 satoshi dal nostro mixdepth 0 (quello di default) andando a scegliere da 4 a 9 controparti per il coinjoin (opzione di default).
 
 Per avere maggior controllo su come e quali utxo spendere possiamo andare ad analizzare le opzioni aggiuntive a questo comando:  
   
-`python sendpayment.py -N 5 -m 1 wallet.jmdat 100000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c`  
+```
+python sendpayment.py -N 5 -m 1 wallet.jmdat 100000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
+``` 
 
 in questo esempio abbiamo aggiunto due specifiche: -N indica con quante controparti andremo a mixare, -m il mixdepth da cui andremo a prelevare i fondi. Di fatto abbiamo inviato 100.000.000 sats (1 btc) all'indirizzo 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c con i fondi presenti nel mixdepth 1 e mixando con 5 controparti.
 
 Se mettessimo come valore di invio 0 specificando un mixdepth, joinmarket effettuerá un cosidetto ´sweep´, ovvero invierá tutti i fondi presenti in quel mixdepth consolidandoli tra di loro:  
   
-`python sendpayment.py -N 7 -m 0 wallet.jmdat 0 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c`  
+```
+python sendpayment.py -N 7 -m 0 wallet.jmdat 0 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
+``` 
 
 quì abbiamo inviato tutti i fondi dal mixdepth 0 (potevamo anche non specificalo perché é quello di default) mixando con 7 controparti.
 
@@ -219,7 +227,9 @@ In caso vogliate usare un fidelity bond potrete crearne uno con questa formattaz
   
 esempio:  
   
-`python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11`  
+```
+python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
+``` 
   
 l'output che vi verrá restituito sarà un indirizzo bitcoin (ovvero quello su cui dovrete depositare i fondi che volete destinare al fidelity).  
   
@@ -250,12 +260,17 @@ Eccoci finalmente alla parte piú succosa di JoinMarket, il tumbler!
 se avete ascoltato il podcast sapete giá di cosa si tratta. Una raccomandazione prima di inziare: ATTENTI ALLE FEE! Ricordatevi di settare i limiti nel file joinmarket.cfg (come spiegato all'inzio) e valutate di far girare il programma solo quando le fee onchain sono relativamente basse (sotto i 10 sats/vB).  
 Per lanciare il tumbler é necessario aver fermato lo script da maker (se era attivo), dopo potremo far partire il comando:  
   
-`python tumbler.py *nome del wallet* *indirizzo1 su cui ricevere* *indirizzo2 su cui ricevere* *indirizzo3 su cui ricevere*`  
+```
+python tumbler.py *nome del wallet* *indirizzo1 su cui ricevere* *indirizzo2 su cui ricevere* *indirizzo3 su cui ricevere*
+``` 
   
 É fondamentale inserire ALMENO 3 indirizzi di output per il tumbler: questo serve a garantire una buona privacy e a non creare link evidenti tra gli UTXO durante tutto il processo. Come al solito aggiungendo --help al comando é possibile andare a vedere tutti i dettagli aggiuntivi. Andiamo a visionare un esempio piú complesso con regole avanzate:  
   
 
-`pyhton tumbler.py TestWallet.jmdat -N 7 2 -c 3 1 bc1qz3f80rtv0ux85d7rc06ldtvmpqyfx6ly48c9pa bc1qf3wljw44utyv7qd0z57zvdkfl20y470mva0nes bc1qw48asjpkwm3k2w8cketqhrre0uwq9f7ypwzmxl`  
+```
+pyhton tumbler.py TestWallet.jmdat -N 7 2 -c 3 1 bc1qz3f80rtv0ux85d7rc06ldtvmpqyfx6ly48c9pa bc1qf3wljw44utyv7qd0z57zvdkfl20y470mva0nes bc1qw48asjpkwm3k2w8cketqhrre0uwq9f7ypwzmxl
+```
+
 In questo caso abbiamo lanciato uno script di tumbling che non userà il numero di controparti di default (il parametro -N indica che richiediamo 7 controparti con una varianza massima di 2, quindi un numero di maker random da 5 a 9) e con un numero maggiore di coinjoin per mixdepth (di default questo script effettua un numero random di coinjoin per sezione del wallet che va da 1 a 3, usando il comando -c 3 1 invece sará da 2 A 4).In questo modo spenderemo piú sats in fee ma avremo un anonimity set maggiore.  
   
 É possibile anche aggiungere quanti indirizzi di output si vogliono (minimo 3, non cé un massimo se non il buon senso). Non é invece possibile, per questioni di privacy, decidere come saranno distribuiti i satoshi tra gli indirizzi specificati come output.  
