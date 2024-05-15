@@ -7,26 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/users/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ユーザー</title>
-      <link>http://localhost:1313/users/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/users/</guid>
-      <description>Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一覧は JSON 形式 で閲覧可能です。</description>
-      
-    </item>
-    
-    <item>
-      <title>用户列表</title>
-      <link>http://localhost:1313/users/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/users/</guid>
-      <description>这里有使用 Blowfish 构建的网站实例。点击 这里以 JSON 形式查看完整列表。</description>
-      
-    </item>
-    
+    <lastBuildDate>Sun, 08 Aug 9999 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/users/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

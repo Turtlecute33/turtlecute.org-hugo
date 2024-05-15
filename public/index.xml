@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Benvenuti a Blowfish! on Turtlecute</title>
+    <title>Turtlecute</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Benvenuti a Blowfish! on Turtlecute</description>
+    <description>Recent content on Turtlecute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
     <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Come usare joinmarket per fare coinjoin</title>
-      <link>http://localhost:1313/guides/template/</link>
+      <link>http://localhost:1313/guides/joinmarket/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/template/</guid>
+      <guid>http://localhost:1313/guides/joinmarket/</guid>
       <description>JOINMARKET # La Guida da 0 a Eroe di Joinmarket.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/template/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/joinmarket/featured.svg" />
     </item>
     
     <item>
-      <title>Build your homepage using Blowfish and Hugo</title>
-      <link>http://localhost:1313/guides/202310-blowfish-tutorial/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      <title>Guida al De-Google e privacy su android</title>
+      <link>http://localhost:1313/guides/android/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/202310-blowfish-tutorial/</guid>
-      <description>Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/202310-blowfish-tutorial/featured.jpg" />
+      <guid>http://localhost:1313/guides/android/</guid>
+      <description>Android # Guida al De-Google e privacy su android.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/android/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Tutorial per il setup di un nodo Tor</title>
+      <link>http://localhost:1313/guides/tor/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/guides/tor/</guid>
+      <description>Tor # Tutorial per il setup di un nodo Tor</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/tor/featured.svg" />
     </item>
     
     <item>
@@ -299,26 +309,6 @@
     </item>
     
     <item>
-      <title>ユーザー</title>
-      <link>http://localhost:1313/users/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/users/</guid>
-      <description>Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一覧は JSON 形式 で閲覧可能です。</description>
-      
-    </item>
-    
-    <item>
-      <title>用户列表</title>
-      <link>http://localhost:1313/users/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/users/</guid>
-      <description>这里有使用 Blowfish 构建的网站实例。点击 这里以 JSON 形式查看完整列表。</description>
-      
-    </item>
-    
-    <item>
       <title>Homepage Layout</title>
       <link>http://localhost:1313/docs/homepage-layout/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
@@ -509,6 +499,16 @@
     </item>
     
     <item>
+      <title>Blowfish へようこそ! :tada:</title>
+      <link>http://localhost:1313/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/_index.ja/</guid>
+      <description> こちらは background レイアウトのデモです。 レイアウトを変更する&amp;orarr; npx blowfish-tools </description>
+      
+    </item>
+    
+    <item>
       <title>Dummy Second Author</title>
       <link>http://localhost:1313/authors/secondauthor/_index.zh-cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -605,16 +605,6 @@
       
       <guid>http://localhost:1313/tags/_index.zh-cn/</guid>
       <description>Blowfish 支持基于 Hugo 的所有分类方法。同时，当前的标签预览页也支持展示自定义内容。</description>
-      
-    </item>
-    
-    <item>
-      <title>欢迎来到 Blowfish! :tada:</title>
-      <link>http://localhost:1313/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/_index.zh-cn/</guid>
-      <description> 这是 background 的样式示例。 切换 layout &amp;orarr; npx blowfish-tools </description>
       
     </item>
     

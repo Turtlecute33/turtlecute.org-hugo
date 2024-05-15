@@ -39,26 +39,6 @@
     </item>
     
     <item>
-      <title>Users</title>
-      <link>http://localhost:1313/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/</guid>
-      <description>Real websites that are built with Blowfish.</description>
-      
-    </item>
-    
-    <item>
-      <title>ユーザー</title>
-      <link>http://localhost:1313/users/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/users/users/</guid>
-      <description>Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一覧は JSON 形式 で閲覧可能です。</description>
-      
-    </item>
-    
-    <item>
       <title>Markdown</title>
       <link>http://localhost:1313/samples/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
