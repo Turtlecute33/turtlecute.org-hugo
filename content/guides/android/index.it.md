@@ -6,7 +6,7 @@ keywords: ["android privacy", "privacy ita", "android privacy italiano", "degoog
 author: "Turtlecute"
 date: 2024-05-15
 url: /android
-images: "img/1.webp"
+images: ["img/1.webp"]
 ---
 
 # Android
