@@ -4,6 +4,7 @@ description: "Guida veloce per creare in autonomia il tuo nodo Tor"
 keywords: ["Tor", "tor browser", "tor ita", "tor relay", "nodo tor", "tor italiano", "guida tor"]
 author: "Turtlecute"
 date: 2024-05-11
+url: /tor
 ---
 
 

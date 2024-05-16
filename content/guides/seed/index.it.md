@@ -4,6 +4,7 @@ description: "Guida per creare un seed bitcoin usando dadi, carta e penna."
 keywords: ["seed", "seed bitcoin", "seed con dadi", "dadi bitcoin", "seed bitcoin ita"]
 author: "Turtlecute"
 date: 2024-05-12
+url: /seed
 ---
 # SEED
 

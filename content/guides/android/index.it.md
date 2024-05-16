@@ -5,6 +5,7 @@ description: "Guida e tutorial su come usare joinmarket per fare coinjoin su bit
 keywords: ["android privacy", "privacy ita", "android privacy italiano", "degoogle", "privacy phone", "graphene os", "graphene os italiano", "graphene os ita", "degoogle italiano"]
 author: "Turtlecute"
 date: 2024-05-15
+url: /android
 ---
 
 # Android

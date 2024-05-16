@@ -10,62 +10,62 @@
     <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Come usare joinmarket per fare coinjoin</title>
-      <link>http://localhost:1313/guides/joinmarket/</link>
+      <link>http://localhost:1313/joinmarket/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/joinmarket/</guid>
+      <guid>http://localhost:1313/joinmarket/</guid>
       <description>JOINMARKET # Se avete trovato questa pagina cercando online &amp;ldquo;JoinTmarket&amp;rdquo; avete tutta la mia sincera stima.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/joinmarket/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/joinmarket/featured.svg" />
     </item>
     
     <item>
       <title>Guida al De-Google e privacy su android</title>
-      <link>http://localhost:1313/guides/android/</link>
+      <link>http://localhost:1313/android/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/android/</guid>
+      <guid>http://localhost:1313/android/</guid>
       <description>Android # Guida al De-Google e privacy su android.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/android/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/android/featured.svg" />
     </item>
     
     <item>
       <title>Tutorial all&#39;utilizzo di bitcoin tutelando la propria privacy</title>
-      <link>http://localhost:1313/guides/bitcoin/</link>
+      <link>http://localhost:1313/bitcoin/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/bitcoin/</guid>
+      <guid>http://localhost:1313/bitcoin/</guid>
       <description>Bitcoin # Questa sarà una guida completa sull&amp;rsquo;utilizzo privacy oriented di Bitcoin partendo dalle basi fino ad arrivare a livelli avanzati.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/bitcoin/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/bitcoin/featured.svg" />
     </item>
     
     <item>
       <title>Come generare un seed bitcoin con i dadi</title>
-      <link>http://localhost:1313/guides/seed/</link>
+      <link>http://localhost:1313/seed/</link>
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/seed/</guid>
+      <guid>http://localhost:1313/seed/</guid>
       <description>SEED # Calcolare una frase mnemonica di 24 parole usando dadi, carte e penna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/seed/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/seed/featured.svg" />
     </item>
     
     <item>
       <title>Tutorial per il setup di un nodo Tor</title>
-      <link>http://localhost:1313/guides/tor/</link>
+      <link>http://localhost:1313/tor/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/tor/</guid>
+      <guid>http://localhost:1313/tor/</guid>
       <description>Tor # Tutorial per il setup di un nodo Tor</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/tor/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tor/featured.svg" />
     </item>
     
     <item>
       <title>Tutorial per il setup di una VPN self-hosted con filtro AdBlock</title>
-      <link>http://localhost:1313/guides/vpn/</link>
+      <link>http://localhost:1313/vpn/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/guides/vpn/</guid>
+      <guid>http://localhost:1313/vpn/</guid>
       <description>VPN # Tutorial per il setup di una VPN self-hosted con filtro AdBlock</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/vpn/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/vpn/featured.svg" />
     </item>
     
     <item>

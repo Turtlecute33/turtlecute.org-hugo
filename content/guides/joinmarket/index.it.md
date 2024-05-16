@@ -4,6 +4,7 @@ description: "Guida e tutorial su come usare joinmarket per fare coinjoin su bit
 keywords: ["Bitcoin", "coinjoin", "joinmarket", "payjoin", "wasabi wallet", "samurai wallet", "joinmarket ita", "jam italiano", "jbitcoin ita"]
 author: "Turtlecute"
 date: 2024-05-15
+url: /joinmarket
 ---
 
 # JOINMARKET

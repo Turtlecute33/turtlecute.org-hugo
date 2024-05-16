@@ -4,6 +4,7 @@ description: "Guida per creare una VPN self-hostata con wireguard, pi-hole e unb
 keywords: ["vpn", "vpn ita", "vpn self hosted", "wireguard", "pihole", "unbound dns", "wireguard ita"]
 author: "Turtlecute"
 date: 2024-05-11
+url: /vpn
 ---
 ## VPN
 

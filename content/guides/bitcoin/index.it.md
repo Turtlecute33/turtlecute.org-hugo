@@ -5,6 +5,7 @@ description: "una guida dalla A alla Z su come usare bitcoin in maniera privacy 
 keywords: ["bitcoin privacy", "privacy ita", "bitcoin privacy italiano", "bitcoin wallet", "nodo bitcoin"]
 author: "Turtlecute"
 date: 2024-05-13
+url: /bitcoin
 ---
 
 ## Bitcoin
