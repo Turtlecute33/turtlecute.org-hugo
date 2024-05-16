@@ -5,6 +5,7 @@ keywords: ["seed", "seed bitcoin", "seed con dadi", "dadi bitcoin", "seed bitcoi
 author: "Turtlecute"
 date: 2024-05-12
 url: /seed
+images: ["img/seed.png"]
 ---
 # SEED
 
