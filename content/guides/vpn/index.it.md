@@ -5,6 +5,7 @@ keywords: ["vpn", "vpn ita", "vpn self hosted", "wireguard", "pihole", "unbound 
 author: "Turtlecute"
 date: 2024-05-11
 url: /vpn
+images: ["img/vpn.webp"]
 ---
 ## VPN
 
