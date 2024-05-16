@@ -13,18 +13,17 @@
 [[main]]
   name = "Podcast"
   url = "https://priorato.org"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Guide"
   pageRef = "guides"
   weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Merchandise"
+  url = "https://dona.priorato.org"
+  weight = 30
 
 #[[subnavigation]]
 #  name = "An interesting topic"
