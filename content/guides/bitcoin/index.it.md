@@ -6,6 +6,7 @@ keywords: ["bitcoin privacy", "privacy ita", "bitcoin privacy italiano", "bitcoi
 author: "Turtlecute"
 date: 2024-05-13
 url: /bitcoin
+images: ["img/bitcoin.webp"]
 ---
 
 ## Bitcoin
