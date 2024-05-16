@@ -5,6 +5,7 @@ keywords: ["Bitcoin", "coinjoin", "joinmarket", "payjoin", "wasabi wallet", "sam
 author: "Turtlecute"
 date: 2024-05-15
 url: /joinmarket
+images: ["img/jm.webp"]
 ---
 
 # JOINMARKET
