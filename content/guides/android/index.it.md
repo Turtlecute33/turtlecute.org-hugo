@@ -200,6 +200,7 @@ Altri ottimi posti per rimanere aggiornati in ambito privacy e degoogle sono var
 <form method="POST" action="https://btcpay.priorato.org/api/v1/invoices" class="btcpay-form btcpay-form--block">
   <input type="hidden" name="storeId" value="2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd" />
   <input type="hidden" name="checkoutDesc" value="Grazie per la donazione tartaruga!" />
+  <input type="hidden" name="browserRedirect" value="https://turtlecute.org" />
   <input type="hidden" name="currency" value="EUR" />
   <input type="hidden" name="defaultPaymentMethod" value="BTC_LNURLPAY" />
   <input type="image" class="submit" name="submit" src="https://btcpay.priorato.org/img/paybutton/pay.svg" style="width:209px" alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor">
